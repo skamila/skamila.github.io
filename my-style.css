@@ -1,0 +1,66 @@
+:root {
+  --yellow: #FECB00;
+  --dark-grey: #4d4d4d;
+}
+
+.yellow {
+  color: #FECB00;
+}
+
+.icon {
+  fill: var(--dark-grey);
+}
+
+.button:hover .icon {
+  fill: #212529;
+}
+
+.position {
+  font-size: 28px;
+  font-weight:bold;
+}
+
+.project {
+  font-size: 18px;
+  font-weight:bold;
+}
+
+.yellow {
+  fill: var(--yellow);
+}
+
+li::marker {
+  color: var(--yellow);
+}
+
+.highlighted {
+  font-size: 48px;
+  font-weight:bold;
+  color: var(--yellow);
+}
+
+.yellow-bold {
+  font-weight:bold;
+  color: var(--yellow);
+}
+
+.bold {
+  font-weight:bold;
+}
+
+.main a {
+  color: var(--yellow);
+  font-weight:bold;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--yellow);
+}
+
+.feel-free-to-contact {
+  font-size: 22px;
+  color: var(--yellow);
+  font-weight:bold;
+  font-family:Caveat;
+}

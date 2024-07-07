@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Java Developer</title>
+    <link rel="icon" type="image/svg" href="images/favicon.svg"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="css/vendor.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="my-style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</head>
+
+<body class="bg-body homepage post-template" data-bs-spy="scroll" data-bs-target="#header-nav" tabindex="0">
+
+<a class="menu-btn"><span></span></a>
+
+<div class="container-fluid overflow-hidden">
+
+    <header id="header-nav" class="col-lg-2 position-fixed px-5 bg-white h-100">
+        <div class="header-wrap d-flex flex-column justify-content-between h-100">
+            <div class="navigation">
+                <div class="site-logo mt-5">
+                    <a href="#home">
+                        <img src="images/main-logo.svg" alt="logo" class="img-fluid">
+                    </a>
+                </div>
+                <nav id="one-page-menu" class="vertical-menu my-5">
+                    <ul class="menu-list list-unstyled">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#experience" class="nav-link">Career</a></li>
+                        <li><a href="#education" class="nav-link">Education</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="mt-5">
+                <div>
+                    <span class="feel-free-to-contact">Feel free to contact&nbsp;me</span>
+                </div>
+                <ul class="list-unstyled d-flex justify-content-start flex-wrap gap-2">
+                    <li>
+                        <img class="img-fluid" src="images/arrow.svg">
+                    </li>
+                    <li>
+                        <a class="button" href="https://www.linkedin.com/in/kamila-struszczak">
+                            <svg width="24" height="24" viewBox="0 0 18 18">
+                                <path class="icon"
+                                      d="M15.336,15.3387H12.670200000000001V11.1627C12.670200000000001,10.1664,12.649500000000002,8.884800199999999,11.280600000000002,8.884800199999999C9.891000000000002,8.884800199999999,9.678600000000001,9.9684002,9.678600000000001,11.088899999999999V15.3387H7.0137V6.7500002H9.5733V7.9200002H9.6084C9.9657,7.2450002,10.836,6.5340001,12.1356,6.5340001C14.836500000000001,6.5340001,15.336,8.3106002,15.336,10.624500000000001ZM4.0023,5.5746001C3.1437,5.5746001,2.4543,4.880700099999999,2.4543,4.0266001C2.4543,3.1725000999999997,3.1446,2.4786000999999995,4.0023,2.4786000999999995A1.548,1.548,0,0,1,4.0023,5.5746001M5.3379,15.3396H2.6649V6.7500002H5.337899999999999ZM16.6698,0H1.3284C0.594,0,0,0.58049998,0,1.296V16.704C0,17.4195,0.594,18,1.3284,18H16.6662C17.3997,18,18,17.4204,18,16.704V1.296C18,0.58139998,17.3997,0,16.6662,0Z"/>
+
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="button" href="cv_kamila_java_developer.pdf" download>
+                            <svg width="24" height="24" viewBox="0 0 18 18">
+                                <path class="icon"
+                                      d="M10.143945,0L6.3809716,0.03091645L2.6179978,0.06183289L2.4589989,0.23629002L2.3,0.4129555V9.0430624V17.673169L2.4545823,17.836585L2.6069562,18H9.0132866H15.419617L15.567574,17.841001C15.714253000000001,17.682890999999998,15.713928000000001,17.649309,15.737615,11.834375999999999L15.761905,5.98675H13.094257C10.520825,5.9867568,10.421617,5.98176,10.285276,5.8454176C10.148615,5.7087549,10.143945,5.6104425,10.143945,2.8531468ZM11.301105,0.8987854C11.285924999999999,0.8987854,11.274595,1.7732799,11.274595,2.8421051999999998V4.785425H13.089832999999999H14.907277999999998L14.657748,4.5204269C14.520339,4.3746782,13.715407,3.5001837,12.869009,2.5771071C12.022612,1.6540305,11.316277,0.8987854,11.301105,0.8987854ZM7.1317997,2.2480677C7.3423005,2.2509577,7.4394696,2.2885507,7.597754800000001,2.3960251C7.989514600000001,2.6620261000000003,8.1652927,2.9782261,8.1652927,3.4206846000000004C8.1652927,3.6306321000000006,8.1184077,3.8936448000000006,8.061501400000001,4.0036806C7.9183408,4.2805235,7.5750447,4.5549707,7.2620905,4.6418844C6.8984537,4.742876,6.7605762,4.7323806,6.4251379,4.5800515C5.7803594,4.2872459,5.5170541,3.5122979,5.8465587,2.8818549C6.0856677,2.4243656,6.3123078,2.2856162,6.8778431,2.2546927C6.979809299999999,2.2491127,7.0616327,2.2471027,7.1317997,2.2480727000000003ZM7.0015089,5.0261316C7.605683,5.0471763,8.2096617,5.264247,8.6820385,5.6996687C9.1216766,6.1049126,9.3085174,6.5715058,9.3511595,7.3735736C9.3824435,7.9620541,9.3715169,8.0311668,9.2341187,8.168568C9.0870915,8.3155451,9.034,8.318734,6.9043429,8.318734C4.8824314,8.318734,4.7161778,8.308323,4.6076922,8.188443C4.4502808,8.0145047,4.4429367,6.8051372,4.5966506,6.4372469C4.9889018,5.498458,5.9945521,4.991057,7.0015089,5.0261316ZM9.0265369,10.721384C13.079749,10.721384,13.308029999999999,10.729184,13.41888,10.851674000000001C13.583482,11.033559,13.574886,11.581828000000002,13.40563,11.735001C13.288378,11.841099,12.880155,11.852043,9.000036900000001,11.852043C4.1503542000000015,11.852043,4.490651900000001,11.894523,4.490651900000001,11.273463C4.490651900000001,10.683066,4.185436900000001,10.721384,9.026536900000002,10.721384ZM9.0265369,13.548031C13.079749,13.548031,13.308033,13.555831,13.41888,13.678321C13.583482,13.860206,13.574886,14.408476,13.40563,14.561648C13.288376,14.667749,12.880152,14.67869,9.0000346,14.67869C4.150352099999999,14.67869,4.490649599999999,14.721169999999999,4.490649599999999,14.100109999999999C4.490649599999999,13.509711999999999,4.185434599999999,13.548030999999998,9.0265351,13.548030999999998Z"/>
+
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="button" href="mailto:kamila.struszczak@gmail.com">
+                            <svg width="24" height="24" viewBox="0 0 18 18">
+                                <path class="icon"
+                                      d="M 1.8,16.5 Q 1.0575,16.5 0.52875,15.949219 0,15.398438 0,14.625 V 3.375 Q 0,2.6015625 0.52875,2.0507813 1.0575,1.5 1.8,1.5 h 14.4 q 0.7425,0 1.27125,0.5507813 Q 18,2.6015625 18,3.375 v 11.25 q 0,0.773438 -0.52875,1.324219 Q 16.9425,16.5 16.2,16.5 Z M 9,9.7734375 q 0.1125,0 0.23625,-0.035156 Q 9.36,9.703125 9.4725,9.6328125 L 15.84,5.484375 Q 16.02,5.3671875 16.11,5.1914063 16.2,5.015625 16.2,4.8046875 16.2,4.3359375 15.8175,4.1015625 15.435,3.8671875 15.03,4.125 L 9,8.0625 2.97,4.125 Q 2.565,3.8671875 2.1825,4.1132813 1.8,4.359375 1.8,4.8046875 1.8,5.0390625 1.89,5.2148438 1.98,5.390625 2.16,5.484375 L 8.5275,9.6328125 Q 8.64,9.703125 8.76375,9.7382813 8.8875,9.7734375 9,9.7734375 Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="button" href="https://github.com/skamila">
+                            <svg width="24" height="24" viewBox="0 0 18 18">
+                                <path class="icon"
+                                      d="M 9.0089322,0.20442781 A 8.7903427,8.7903427 0 0 0 6.2287311,17.335374 c 0.4415614,0.08178 0.6010141,-0.188071 0.6010141,-0.408852 V 15.434209 C 4.3766263,15.965717 3.8696484,14.256712 3.8696484,14.256712 A 2.330463,2.330463 0 0 0 2.8761352,12.952469 c -0.7972637,-0.543774 0.061328,-0.535597 0.061328,-0.535597 a 1.8480164,1.8480164 0 0 1 1.3451269,0.907653 c 0.7849979,1.345127 2.0442658,0.956717 2.5594208,0.731848 A 1.8807245,1.8807245 0 0 1 7.4021391,12.878876 C 5.4478214,12.658095 3.3953787,11.905805 3.3953787,8.536855 a 3.3934812,3.3934812 0 0 1 0.907654,-2.3590828 3.1399922,3.1399922 0 0 1 0.085858,-2.3263745 c 0,0 0.7359357,-0.2371347 2.4163221,0.899477 a 8.3651357,8.3651357 0 0 1 4.3992602,0 c 1.680387,-1.1366117 2.416321,-0.899477 2.416321,-0.899477 a 3.1645234,3.1645234 0 0 1 0.08585,2.3263745 3.3853041,3.3853041 0 0 1 0.903567,2.3590828 c 0,3.377127 -2.044266,4.117152 -4.01085,4.337932 a 2.093328,2.093328 0 0 1 0.596932,1.635412 v 2.412235 c 0,0.290284 0.159453,0.506977 0.605102,0.408851 A 8.7903427,8.7903427 0 0 0 9.0089322,0.20442781"/>
+
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <div class="py-4 border-top">
+                    <p>HTML by <a href="https://templatesjungle.com/" target="_blank">TemplatesJungle</a></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="col-lg-10 offset-lg-2 main">
+        <div class="container">
+
+            <!-- content wrapper -->
+            <div class="justify-content-center px-1 mx-1 px-xl-5 mx-xl-5">
+
+                <section id="home" class="py-5">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="banner-image text-center" data-aos="fade-right">
+                                <img style="padding-top: 25px;" src="images/banner-image.svg" alt="banner"
+                                     class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="banner-content my-1 pt-1 my-lg-5 pt-lg-5" data-aos="fade-in">
+                                <h2 class="text-muted text-uppercase" style="margin-left: 8px;">Java Developer</h2>
+                                <h1 class="banner-title display-xl lh-1 slide-up">Kamila<span
+                                        class="yellow-bold">.</span></h1>
+                                <img src="images/skills_baner.svg" alt="strong technical and soft skills"
+                                     class="img-fluid" style="margin-left: 8px;">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="about" class="my-5 py-3">
+                    <div class="row d-flex flex-wrap" data-aos="fade-up">
+                        <h2 class="display-4 slide-up">About me<span class="yellow-bold">.</span></h2>
+                        <div class="data-info py-3 col-lg-6" data-aos="fade-up">
+                            <p>
+                                I have been programming in Java for the past <span class="bold">six years</span>,
+                                working mainly on complex
+                                client-server application. I like <span class="bold">collaborating</span> and <span
+                                    class="bold">sharing knowledge</span>, and I
+                                consider software development a team game. I feel responsible for the team, so I am
+                                eager to go beyond the field of programming. I am involved in activities such as
+                                <span class="bold">code review</span>, <span class="bold">recruitments</span>, and <span
+                                    class="bold">onboarding</span> new employees.
+                            </p>
+                            <p>
+                                My qualities are <span class="bold">good organization</span> of work and <span
+                                    class="bold">responsibility</span>, so I am comfortable
+                                with tasks that require planning tasks and supervising their progress.
+                            </p>
+                            <p>
+                                In my professional life, I would like to <span class="bold">combine the use of technical knowledge and
+                                soft skills</span>, so I am eager to steer my path toward becoming a team leader.
+                            </p>
+                            <p>
+                                I speak <span class="bold">Polish</span> (native) and <span class="bold">English</span>
+                                (C1 according to <a
+                                    href="https://cert.efset.org/RjPjCG">EF SET</a>).
+                            </p>
+                        </div>
+                        <div class="data-info py-3 col-lg-6">
+                            <div class="project" data-aos="fade-up" data-aos-delay="100">
+                                <div>Main technology:</div>
+                                <div class="highlighted">Java</div>
+                            </div>
+
+                            <div class="project" data-aos="fade-up" data-aos-delay="200">
+                                <div>Experience:</div>
+                                <div class="highlighted">&gt 6 years</div>
+                            </div>
+                            <div class="project" data-aos="fade-up" data-aos-delay="300">
+                                <div>Education:</div>
+                                <div class="highlighted">MSc</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex flex-wrap" data-aos="fade-up">
+                        <h2 class="display-4 slide-up">Skills<span class="yellow-bold">.</span></h2>
+                        <div class="col-lg-6">
+                            <div class="data-info py-3" data-aos="fade-up">
+                                <h3 class="info-title">Technical Skills<span class="yellow-bold">.</span></h3>
+                                <ul class="py-3">
+                                    <li><span class="bold">Java</span> (incl. core, concurrency, memory management)</li>
+                                    <li><span class="bold">Back-end</span> (Spring Boot, Java EE)</li>
+                                    <li><span class="bold">Relational databases</span> (PostgreSQL, Hibernate,
+                                        Liquibase)
+                                    </li>
+                                    <li><span class="bold">Front-end</span> (JavaFX)</li>
+                                    <li><span class="bold">Reactive programming</span> (incl. RxJava)</li>
+                                    <li><span class="bold">Testing</span> (JUnit, Mockito)</li>
+                                    <li><span class="bold">Debugging</span> (incl. memory and asynchronous and bugs,
+                                        using VisualVM)
+                                    </li>
+                                    <li><span class="bold">Project management tool</span> (Maven)</li>
+                                    <li><span class="bold">Version Control System</span> (Git)</li>
+                                    <li><span class="bold">Medical</span> (DICOM protocol)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="data-info py-3" data-aos="fade-up" data-aos-delay="100">
+                                <h3 class="info-title">Soft Skills<span class="yellow-bold">.</span></h3>
+                                <ul>
+                                    <li>proactivity</li>
+                                    <li>decision-making skills</li>
+                                    <li>taking responsibility</li>
+                                    <li>attention to detail</li>
+                                    <li>organized</li>
+                                    <li>effective communication</li>
+                                    <li>mentoring skills</li>
+                                    <li>emotional intelligence</li>
+                                    <li>empathy</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experience" class="my-5 py-3">
+                    <div class="row d-flex flex-wrap py-3" data-aos="fade-up">
+                        <h2 class="display-4 slide-up">Experience<span class="yellow-bold">.</span></h2>
+                        <div class="col-lg-6">
+                            <div class="data-info py-2" data-aos="fade-up">
+                                <span class="meta-date">11.2024 – present</span>
+                                <p>
+                                    <span class="position">Senior Software Engineer</span>
+                                    <span>at&nbsp;Visa</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="data-info py-3" data-aos="fade-up">
+                                <div class="data-info py-3">
+                                    <span>Project:</span><br>
+                                    <span class="project">B2B Application in Microservices Architecture</span>
+                                </div>
+                            </div>
+                            <div class="data-info" data-aos="fade-up" data-aos-delay="200">
+                                <span>Tech stack:</span><br>
+                                <span class="project">
+                                            Java <span class="yellow">•</span> Spring <span class="yellow">•</span> Hibernate <span
+                                        class="yellow">•</span> JUnit <span
+                                        class="yellow">•</span> Mockito <span
+                                        class="yellow">•</span> Maven <span
+                                        class="yellow">•</span> Git <span
+                                        class="yellow">•</span> Jenkins
+                                        </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex flex-wrap py-3" data-aos="fade-up">
+                        <div class="col-lg-6">
+                            <div class="data-info py-2" data-aos="fade-up">
+                                <span class="meta-date">05.2019 – 10.2025</span>
+                                <p>
+                                    <span class="position">Java Developer</span>
+                                    <span>at&nbsp;Pixel&nbsp;Technology</span>
+                                </p>
+                            </div>
+                            <div data-aos="fade-up">My tasks:</div>
+                            <div data-aos="fade-up">
+                                <span class=" project
+                            ">New functionalities</span>
+                                <ul>
+                                    <li>Analysis including substantive research, consultation with specialists and
+                                        clients, UX design
+                                    </li>
+                                    <li>Design, implementation, and testing of functionality from frontend to
+                                        backend
+                                    </li>
+                                </ul>
+                            </div>
+                            <div data-aos="fade-up">
+                                <span class="project">Code maintenance</span>
+                                <ul>
+                                    <li>Analysis and fixing bugs including memory bugs, multithreading, and
+                                        asynchronous issues
+                                    </li>
+                                    <li>Code refactoring</li>
+                                </ul>
+                            </div>
+                            <div data-aos="fade-up">
+                                <span class="project">Team building and work organization</span>
+                                <ul>
+                                    <li>Being a recruiter in recruitment processes</li>
+                                    <li>Onboarding new employees</li>
+                                    <li>Code review</li>
+                                    <li>Functionality planning and supervision</li>
+                                    <li>Taking care of a good atmosphere and communication in the team</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="data-info py-3" data-aos="fade-up">
+                                <p><span>Project:</span><br>
+                                    <span class="project">Radiological (DICOM) Image Viewer</span>
+                                </p>
+                                The developed medical viewer allows the viewing of DICOM digital images like
+                                X-rays,
+                                computed tomography, magnetic resonance, or mammography images. It has various
+                                tools
+                                and entire modules with AI dedicated to specific studies.
+                            </div>
+                            <div class="data-info" data-aos="fade-up" data-aos-delay="100">
+                                <p>
+                                    Interesting topics I worked on:
+                                </p>
+                                <ul>
+                                    <li>Asynchronous DICOM communication</li>
+                                    <li>RECIST (response evaluation criteria in solid tumors), including research
+                                        about
+                                        this scale, design of the tool, and consultation of ideas with doctors
+                                    </li>
+                                    <li>Tools for dynamic studies</li>
+                                    <li>Tools for mammography including consultation of ideas with doctors</li>
+                                    <li>Custom database migrations using Liquibase and Hibernate</li>
+                                    <li>Memory, multithreading, and asynchronous issues</li>
+                                </ul>
+                            </div>
+                            <div class="data-info" data-aos="fade-up" data-aos-delay="200">
+                                <span>Tech stack:</span><br>
+                                <span class="project">
+                                            Java 17 <span class="yellow">•</span> JavaFx <span class="yellow">•</span> RxJava <span
+                                        class="yellow">•</span> Spring <span
+                                        class="yellow">•</span> Hibernate <span
+                                        class="yellow">•</span> Liquibase <span
+                                        class="yellow">•</span> PostgreSQL <span
+                                        class="yellow">•</span> JUnit <span
+                                        class="yellow">•</span> Mockito <span
+                                        class="yellow">•</span> Maven <span class="yellow">•</span> Git <span
+                                        class="yellow">•</span> DICOM
+                                        </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="education" class="my-5 py-3">
+                    <div class="row d-flex flex-wrap my-3" data-aos="fade-up" data-aos-offset="50">
+                        <h2 class="display-4 slide-up">Education<span class="yellow-bold">.</span></h2>
+                        <div class="col-lg-6">
+                            <div class="data-info py-3" data-aos="fade-up" data-aos-offset="50">
+                                <span class="meta-date">2020 – 2022 Lodz University of Technology</span>
+                                <h3 class="info-title">
+                                    Master of Science in Computer Science</h3>
+                                <p>spec. <span class="bold">Application Frameworks for Java EE Platform</span> <br>
+                                    including
+                                    international student exchanges in Johannes Kepler Universität Linz</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="data-info py-3" data-aos="fade-up" data-aos-delay="100" data-aos-offset="50">
+                                <span class="meta-date">2016 – 2020 Lodz University of Technology</span>
+                                <h3 class="info-title">Bachelor of Science in Computer Science</h3>
+                                <p>spec. <span class="bold">Software Engineering</span> <br> Software Testing and
+                                    Quality Assurance,
+                                    Mobile Technologies</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+</div>
+
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+<script src="js/plugins.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
