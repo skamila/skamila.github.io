@@ -1,0 +1,45 @@
+:root {
+  --yellow: #FECB00;
+  --dark-grey: #212529;
+}
+
+.yellow {
+  color: #FECB00;
+}
+
+.icon {
+  fill: var(--dark-grey);
+}
+
+.icon:hover {
+  fill: var(--yellow);
+}
+
+.position {
+  font-size: 28px;
+  font-weight:bold;
+}
+
+.project {
+  font-size: 18px;
+  font-weight:bold;
+}
+
+.yellow {
+  fill: var(--yellow);
+}
+
+li::marker {
+  color: var(--yellow);
+}
+
+.highlighted {
+  font-size: 48px;
+  font-weight:bold;
+  color: var(--yellow);
+}
+
+.yellow-bold {
+  font-weight:bold;
+  color: var(--yellow);
+}

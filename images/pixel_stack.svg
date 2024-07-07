@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="138mm"
+   height="63mm"
+   viewBox="0 0 138 63"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="pixel_stack.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.096401"
+     inkscape:cx="288.58983"
+     inkscape:cy="151.45003"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:26.4583px;line-height:11.45;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#fecb00;fill-opacity:1;stroke-width:0.264583"
+       x="28.867733"
+       y="42.715565"
+       id="text3356"><tspan
+         sodipodi:role="line"
+         id="tspan3354"
+         style="font-size:26.4583px;fill:#fecb00;fill-opacity:1;stroke-width:0.264583"
+         x="28.867733"
+         y="42.715565">java17</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:12.3472px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';stroke-width:0.264583"
+       x="5.2676892"
+       y="39.323009"
+       id="text15052"><tspan
+         sodipodi:role="line"
+         id="tspan15050"
+         style="font-size:12.3472px;fill:#4d4d4d;stroke-width:0.264583"
+         x="5.2676892"
+         y="39.323009">git</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:12.3472px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';stroke-width:0.264583"
+       x="42.793888"
+       y="56.335262"
+       id="text19148"><tspan
+         sodipodi:role="line"
+         id="tspan19146"
+         style="font-size:12.3472px;fill:#4d4d4d;stroke-width:0.264583"
+         x="42.793888"
+         y="56.335262">javafx</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.81944px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';stroke-width:0.264583"
+       x="88.225952"
+       y="56.679127"
+       id="text20274"><tspan
+         sodipodi:role="line"
+         id="tspan20272"
+         style="font-size:8.81944px;fill:#808080;stroke-width:0.264583"
+         x="88.225952"
+         y="56.679127">mockito</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:12.3472px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';stroke-width:0.264583"
+       x="3.7080293"
+       y="18.711845"
+       id="text23782"><tspan
+         sodipodi:role="line"
+         id="tspan23780"
+         style="font-size:12.3472px;fill:#4d4d4d;stroke-width:0.264583"
+         x="3.7080293"
+         y="18.711845">liquibase</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';stroke-width:0.264583"
+       x="5.1379318"
+       y="58.2346"
+       id="text26414"><tspan
+         sodipodi:role="line"
+         id="tspan26412"
+         style="fill:#666666;stroke-width:0.264583"
+         x="5.1379318"
+         y="58.2346">rxjava</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:12.3472px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';stroke-width:0.264583"
+       x="101.35893"
+       y="21.030426"
+       id="text27870"><tspan
+         sodipodi:role="line"
+         id="tspan27868"
+         style="font-size:12.3472px;fill:#666666;stroke-width:0.264583"
+         x="101.35893"
+         y="21.030426">spring</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.81944px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';stroke-width:0.264583"
+       x="79.847908"
+       y="11.222663"
+       id="text28996"><tspan
+         sodipodi:role="line"
+         id="tspan28994"
+         style="font-size:8.81944px;fill:#808080;stroke-width:0.264583"
+         x="79.847908"
+         y="11.222663">hibernate</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:7.05556px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';stroke-width:0.264583"
+       x="47.97448"
+       y="7.9016657"
+       id="text30742"><tspan
+         sodipodi:role="line"
+         id="tspan30740"
+         style="font-size:7.05556px;fill:#999999;stroke-width:0.264583"
+         x="47.97448"
+         y="7.9016657">maven</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:7.05556px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';stroke-width:0.264583"
+       x="109.19505"
+       y="41.724636"
+       id="text32318"><tspan
+         sodipodi:role="line"
+         id="tspan32316"
+         style="font-size:7.05556px;fill:#999999;stroke-width:0.264583"
+         x="109.19505"
+         y="41.724636">dicom</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:7.05556px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';stroke-width:0.264583"
+       x="58.594383"
+       y="19.503202"
+       id="text33426"><tspan
+         sodipodi:role="line"
+         id="tspan33424"
+         style="font-size:7.05556px;fill:#999999;stroke-width:0.264583"
+         x="58.594383"
+         y="19.503202">postgresql</tspan></text>
+  </g>
+</svg>
